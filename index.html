@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/styles.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
-  <title>Frontend Mentor | News homepage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+ <title>Frontend Mentor | News homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,104 +16,113 @@
   </style>
 </head>
 <body>
-  <div class="grid-container">
 
-    <div class="header">
+  <div class="header">
+    <div class="logo">W.</div>
 
-      <div class="logo">W.</div>
+    <div class="menu">
+      <span class="span-menu"><a href="">Home</a></span>
+      <span class="span-menu"><a href="">New</a></span>
+      <span class="span-menu"><a href="">Popular</a></span>
+      <span class="span-menu"><a href="">Trending</a></span>
+      <span class="span-menu"><a href="">Categories</a></span>
+    </div>
+  </div>
 
-      <div class="menu">
-        <span class="span-menu"><a href="">Home</a></span>
-        <span class="span-menu"><a href="">New</a></span>
-        <span class="span-menu"><a href="">Popular</a></span>
-        <span class="span-menu"><a href="">Trending</a></span>
-        <span class="span-menu"><a href="">Categories</a></span>
-      </div>
+  <div class="contenu-grid">
 
+    <div class="contenu contenu-1"> 
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="fo" class="img"/>     
+    </div>   
+
+    <div class="contenu contenu-2">
+        The Bright Future of Web 3.0? 
     </div>
 
-    <div class="sidebar">
+    <div class="contenu contenu-3">
+        <p class="paragraphe-contenu-3">
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+        </p>
+        <button class="button">
+            <span style="margin-right: 5px;"><b>R E A D</b></span><b> M O R E</b>
+        </button>
+    </div>
 
-      <div class="sidebar-1">
-        <div class="image-1"><img src="./assets/images/image-web-3-desktop.jpg" alt=""></div>
-      </div>
-        <div class="sidebar-2">
-            <div class="flex flex-gauche">The Bright Future of Web 3.0?</div>
-            <div class="flex flex-droite">
-              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-              But is it really fulfilling its promise?
+    <div class="contenu contenu-4">
+        <div class="paragraphe-section">
 
-              <div>
-                <button class="button">R E A D <span class="black">_</span> M O R E</button>
-              </div>
+        <div class="main-paragraphe">
+        <div class="titre">New</div>
+
+          <div class="paragraphe">
+            Hydrogen VS Electric Cars
+            <div class="span-paragraphe">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </div>
+          </div>
+        </div>
+
+        <div class="main-paragraphe">
+            <div class="paragraphe">
+            The Downsides of AI Artistry
+            
+            <div class="span-paragraphe">
+              What are the possible adverse effects of on-demand AI image
+              generation?
             </div>
         </div>
-
-    </div>
-
-    <div class="main">
-
-      <div class="main-paragraphe">
-        <span class="titre">New</span> 
-
-          <div class="paragraphe p-1">
-            Hydrogen VS Electric Cars
-            <div class="span-paragraphe">Will hydrogen-fueled cars ever catch up to EVs?</div>
-          </div>
-      </div>
-
-      <div class="main-paragraphe">
-        <div class="titre-2">The Downsides of AI Artistry</div>
-
-        <div class="paragraphe">
-          <div class="span-paragraphe">What are the possible adverse effects of on-demand AI image generation?</div>
         </div>
-      </div>
 
-      <div class="main-paragraphe">
-        <div class="paragraphe">
-          Is VC Funding Drying Up?
-          <div class="span-paragraphe">
-          Private funding by VC firms is down 50% YOY. We take a look at what that means.
+        <div class="main-paragraphe">
+          <div class="paragraphe">
+            Is VC Funding Drying Up?
+            <div class="span-paragraphe">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </div>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
-    <!-- <div class="footer">
-      <div class="image image-2">
-        <div class="footer-gauche"><img src="./assets/images/image-gaming-growth.jpg" alt=""></div>
-        <div class="footer-droite">
-          <div class="num">01</div>
-          <div class="type">Reviving Retro PCs</div>
-          <div class="description">What happens when old PCs are given modern upgrades?</div>
-        </div>
-      </div>
 
-      <div class="image image-3">
-        <div class="footer-gauche"><img src="./assets/images/image-gaming-growth.jpg" alt=""></div>
-        <div class="footer-droite">
-          <div class="num">02</div>
-          <div class="type">Top 10 Laptops of 2022</div>
-          <div class="description">Our best picks for various needs and budgets.</div>
-        </div>
-      </div>
+</div>
 
-      <div class="image image-4">
-        <div class="footer-gauche"><img src="./assets/images/image-gaming-growth.jpg" alt=""></div>
-        <div class="footer-droite">
-          <div class="num">03</div>
-          <div class="type">The Growth of Gaming</div>
-          <div class="description">How the pandemic has sparked fresh opportunities.</div>
+<footer class="contenu-grid-footer">
+        <div class="contenu-footer contenu-footer-1">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="img-footer-1" class="img-footer-1">
+            <div class="desc-footer-1">
+                <p class="p-1-footer p-margin-footer">01</p>
+                <p class="p-margin-footer p-footer">Reviving Retro PCs</p>
+                <p class="p-3-footer p-margin-footer">What happens when old PCs are given modern upgrades?</p>
+            </div>
         </div>
-      </div>
+        <div class="contenu-footer contenu-footer-2">
+            <img src="./assets/images/image-top-laptops.jpg" alt="img-footer-2" class="img-footer-2">
+            <div class="desc-footer-2">
+               <p  class="p-1-footer p-margin-footer">02</p>
+               <p class="p-margin-footer p-footer"> Top 10 Laptops of 2022</p> 
+               <p class="p-3-footer p-margin-footer">Our best picks for various needs and budgets.</p>
+            </div>
+        </div>
+        <div class="contenu-footer contenu-footer-3">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="img-footer-3" class="img-footer-3">
+            <div class="desc-footer-3">
+                <p class="p-1-footer p-margin-footer">03</p>
+                <p class="p-margin-footer p-footer">The Growth of Gaming</p>
+                <p class="p-3-footer p-margin-footer">How the pandemic has sparked fresh opportunities.</p>
+            </div>
+        </div>
+</footer>
 
-      </div>
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Onjatiana Léoncia RASOARIVELO</a>.
-      </div>
-    </div> -->
+<div class="attribution">
+  Challenge by
+  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    >Frontend Mentor</a
+  >. Coded by <a href="#">Onjatiana Léoncia RASOARIVELO</a>.
+</div>
 
 </body>
 </html>
