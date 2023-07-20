@@ -575,7 +575,12 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
+  .header {
+    padding: 50px 100px 50px 100px;
+   }
+
   .contenu-grid {
+    padding: 50px 100px 50px 100px;
     grid-template-columns: repeat(3, 1fr);
   }
   
@@ -593,7 +598,7 @@ a:hover {
   } 
   
   .contenu-grid-footer {
-    padding: 20px;
+    padding: 50px 100px 50px 100px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
